@@ -1,0 +1,12 @@
+<% @products.each do |product| %>
+  <div id="product">
+    <div id="first-image">
+      <%= link_to image_tag(product.images[0]['src']), nil %>
+    </div>
+
+    <h4 id="title">
+      <%= link_to product.title, '#' %>
+      <div id="price"><%= product.price_from %></div>
+    </h4>
+  </div>
+<% end %>
