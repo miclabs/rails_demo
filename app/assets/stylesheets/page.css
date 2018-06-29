@@ -1,0 +1,19 @@
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+#product {
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	max-width: 30%;
+	float: left;
+}
+#product #first-image img{
+	width: 300px;
+	height: auto;
+}
+#product #title #price {
+	color: red;
+	font-weight: bold;
+}
